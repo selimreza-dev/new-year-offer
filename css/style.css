@@ -1,0 +1,15 @@
+/* Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* Start global style */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size:16px;
+}
+/* End global style */
