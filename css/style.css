@@ -106,6 +106,9 @@ body{
         url('../images/Vectorrr.png'); 
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 100px;
     /* display: flex;
     justify-content: space-between;
     align-items: center;
@@ -164,3 +167,307 @@ body{
     max-width: 100%;
 }
 /* End Midnight party style */
+
+
+/* Start Location date join style */
+.place-bg{
+    background:linear-gradient(to bottom, rgb(255, 230, 230), rgba(255, 255, 255, 0.945));
+    padding:50px;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: inter;
+}
+.place-content{
+    text-align: center;
+}
+.place-content h3{
+    line-height: 35px;
+    color:#000;
+}
+.place-content span{
+    color:#FF0000;
+}
+.place-content a{
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top:30px;
+    background:#FF0000;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size:14px;
+    transition: 0.3s;
+}
+.place-content a:hover{
+    background-color: #000;
+}
+/* End Location date join style */
+
+/* Start Coming Soon Style */
+#coming-soon{
+    padding:80px 0;
+}
+.coming-bg{
+    background-color: #fff;
+}
+.coming-soon-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.coming-soon-text{
+    flex-basis: 30%;
+}
+.coming-soon-text h6{
+    font-size:14px;
+    color:#FF0000;
+    font-family: inter;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.coming-soon-text h2{
+    color:#000;
+    margin:15px 0px;
+}
+.coming-soon-text p{
+    color:#777777;
+    margin:15px 0px;
+    font-size: 14px;
+    line-height: 22px;
+}s
+.coming-soon-image{
+    flex-basis: 30%;
+}
+.coming-soon-image img{
+    max-width: 280px;
+    border:8px solid #FF0000;
+    border-radius: 50%;
+    padding:20px;
+}
+.coming-soon-year{
+    flex-basis: 30%;
+}
+.coming-soon-year h2{
+    font-family: inter;
+    color:#FF0000;
+    
+}
+.coming-soon-year p{
+    color:#777777;
+    margin:20px 0;
+    font-size:14px;
+
+}
+
+/* End Coming Soon Style */
+
+/* Start Holiday Style */
+.holiday-content{
+    padding-top:20px;
+    padding-bottom: 80px;
+}
+.holiday-text{
+    text-align: center;
+}
+.holiday-text h6{
+    font-size:16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: inter;
+    color:#000;
+}
+.holiday-text h2{
+    font-size:45px;
+    font-weight: 800;
+    color:#000;
+    word-spacing: 5px;
+    margin:10px 0;
+}
+.holiday-text span{
+    color:#FF0000;
+}
+.holiday-text p{
+    margin:20px auto;
+    width:700px;
+    font-size:14px;
+    color: #777777;
+}
+.holiday-image{
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:50px;
+}
+.holiday-image img:first-child{
+    width: 500px;
+}
+.holiday-image img:last-child{
+    margin-bottom: 150px;
+}
+
+/* End Holiday Style */
+
+/* Start Gift Card style */
+#best-gift{
+    padding-top:20px;
+    padding-bottom: 80px;
+}
+.gift-text{
+    text-align: left;
+}
+.gift-text h6{
+    text-align: left;
+    font-size:16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: inter;
+    color:#FF0000;
+}
+.gift-text h2{
+    font-size:30px;
+    font-weight: 800;
+    color:#000;
+    margin:10px 0;
+}
+.gift-text p{
+    margin:20px 0;
+    width:700px;
+    font-size:14px;
+    color: #777777;
+}
+.gift-image{
+    margin:20px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gift-image img{
+    max-width: 340px;
+    margin:10px 0;
+}
+/* end Gift Card style */
+
+/* Start Subscribe Style */
+.newsletter-bg{
+    background-color: #FFF2F2;
+    text-align: center;
+    border-radius: 10px;
+}
+.newsletter-content{
+    padding:60px;
+}
+.newsletter-content img{
+    width: 100px;
+}
+.newsletter-content h2{
+    margin:20px;
+    font-size: 35px;
+    font-weight: 800;
+}
+.newsletter-content p{
+    padding:0 100px;
+    font-size: 14px;
+    color:#777777;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.newsletter-content div input{
+    padding:15px 20px;
+    font-size:14px;
+    color:#FF0000;
+    border-radius: 100px 0px 0px 100px;
+    border:none;
+    outline:none;
+    width: 40%;
+
+}
+.newsletter-content div button{
+    padding:15px 50px;
+    font-size:14px;
+    background-color:#FF0000;
+    color:#fff;
+    border-radius: 0px 100px 100px 0px;
+    border:none;
+    outline:none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+/* end Subscribe Style */
+
+/* Start Footer Style */
+footer{
+    background-color: #070211;
+    padding:80px 0;
+}
+.footer-text{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    border-bottom: 1px solid #777777;
+    padding-bottom: 30px;
+}
+.footer-text p{
+    color:#fff;
+    
+}
+.footer-text-left p{
+    margin:5px;
+
+}
+.footer-text-right p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.footer-icon{
+    padding:30px 0;
+    text-align: center;
+    border-bottom: 1px solid #777777;
+}
+.footer-icon a{
+    width:40px;
+    display: inline-block;
+    margin: 0 10px
+}
+
+.footer-icon a img{
+    max-width: 100%;
+}
+
+.footer-copyright{
+    padding:50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-copyright p{
+    color:#fff;
+    font-size:18px;
+    font-family: inter;
+}
+.footer-copyright p button{
+    background-color: transparent;
+    border:none;
+    outline:none;
+    font-size:15px;
+    color:#fff;
+    font-family: "Merriweather", serif;
+}
+
+/* End Footer Style */
